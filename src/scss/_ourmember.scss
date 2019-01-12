@@ -1,0 +1,44 @@
+.ourTeam_member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 155px;
+  position: relative;
+  margin: 0 25px 50px 25px;
+  cursor: pointer;
+}
+.ourTeam_member-name {
+  margin-top: 20px;
+  font-weight: 100;
+  color: #452E76;
+}
+.ourTeam_member-position {
+  margin: 15px 10px 0 10px;
+  font-size: 12px;
+  color: #42c3de;
+  text-align: center;
+}
+.ourTeam_member-city {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #969696;
+}
+.ourTeam_member-mail {
+  width: 35px;
+  height: 35px;
+  background-color: #452E76;
+  position: absolute;
+  border-radius: 50%;
+  right: 3px;
+  top: 3px;
+}
+.ourTeam_member-image {
+  width: 155px;
+  height: auto;
+}
+.fas {
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 28%;
+}
